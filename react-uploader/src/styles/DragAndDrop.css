@@ -1,0 +1,32 @@
+/* DragAndDrop.css */
+.drag-and-drop {
+    border: 2px dashed #888;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dragging {
+    background-color: #f0f0f0;
+  }
+  
+  .drag-and-drop p {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .drag-and-drop .file-input-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .drag-and-drop .file-input-btn:hover {
+    background-color: #45a049;
+  }
+  
